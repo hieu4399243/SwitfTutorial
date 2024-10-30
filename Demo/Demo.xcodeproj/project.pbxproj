@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7229A1512CD2261B001E1033 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7229A1502CD2261B001E1033 /* ActionSheetView.swift */; };
+		7229A1532CD229F1001E1033 /* NaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7229A1522CD229F1001E1033 /* NaviView.swift */; };
 		72EAD0582CD06BF200EE9C94 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EAD0572CD06BF200EE9C94 /* DemoApp.swift */; };
 		72EAD05A2CD06BF200EE9C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EAD0592CD06BF200EE9C94 /* ContentView.swift */; };
 		72EAD05C2CD06BF300EE9C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72EAD05B2CD06BF300EE9C94 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7229A1502CD2261B001E1033 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		7229A1522CD229F1001E1033 /* NaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviView.swift; sourceTree = "<group>"; };
 		72EAD0542CD06BF200EE9C94 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EAD0572CD06BF200EE9C94 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		72EAD0592CD06BF200EE9C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				72EAD0892CD1D7DB00EE9C94 /* Picker.swift */,
 				72EAD08B2CD1E61F00EE9C94 /* ContextMenu.swift */,
 				72EAD08D2CD1EC3700EE9C94 /* Alert.swift */,
+				7229A1502CD2261B001E1033 /* ActionSheetView.swift */,
+				7229A1522CD229F1001E1033 /* NaviView.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -277,8 +283,10 @@
 			files = (
 				72EAD0842CD079F500EE9C94 /* StateView.swift in Sources */,
 				72EAD08A2CD1D7DB00EE9C94 /* Picker.swift in Sources */,
+				7229A1532CD229F1001E1033 /* NaviView.swift in Sources */,
 				72EAD08C2CD1E61F00EE9C94 /* ContextMenu.swift in Sources */,
 				72EAD0862CD0852300EE9C94 /* SliderView.swift in Sources */,
+				7229A1512CD2261B001E1033 /* ActionSheetView.swift in Sources */,
 				72EAD0882CD0ED7A00EE9C94 /* ListView.swift in Sources */,
 				72EAD05A2CD06BF200EE9C94 /* ContentView.swift in Sources */,
 				72EAD08E2CD1EC3700EE9C94 /* Alert.swift in Sources */,
