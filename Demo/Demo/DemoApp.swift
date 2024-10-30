@@ -11,10 +11,7 @@ import SwiftUI
 struct DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            //StateView()
-//            SliderView()
-            GroupView()
+            Picker()
         }
     }
 }
