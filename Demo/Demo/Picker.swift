@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct Picker: View {
+struct PickerUI: View {
     var colors = ["Red", "Green", "Blue", "Tartan"]
-    @State private var selectedColor = "Red"
+    @State private var selectedColor: Int = 0
     var body: some View {
         VStack {
-            Picker("Please choose a color", selection: $selectedColor) {
+            Picker("choose", selection: $selectedColor) {
                             ForEach(colors, id: \.self) { color in
                                 Text(color)
                             }
@@ -23,5 +23,5 @@ struct Picker: View {
 }
 
 #Preview {
-    Picker()
+    PickerUI()
 }
