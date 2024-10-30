@@ -18,6 +18,7 @@
 		72EAD0862CD0852300EE9C94 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EAD0852CD0852300EE9C94 /* SliderView.swift */; };
 		72EAD0882CD0ED7A00EE9C94 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EAD0872CD0ED7A00EE9C94 /* ListView.swift */; };
 		72EAD08A2CD1D7DB00EE9C94 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EAD0892CD1D7DB00EE9C94 /* Picker.swift */; };
+		72EAD08C2CD1E61F00EE9C94 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EAD08B2CD1E61F00EE9C94 /* ContextMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		72EAD0852CD0852300EE9C94 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		72EAD0872CD0ED7A00EE9C94 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		72EAD0892CD1D7DB00EE9C94 /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		72EAD08B2CD1E61F00EE9C94 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				72EAD0852CD0852300EE9C94 /* SliderView.swift */,
 				72EAD0872CD0ED7A00EE9C94 /* ListView.swift */,
 				72EAD0892CD1D7DB00EE9C94 /* Picker.swift */,
+				72EAD08B2CD1E61F00EE9C94 /* ContextMenu.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				72EAD0842CD079F500EE9C94 /* StateView.swift in Sources */,
 				72EAD08A2CD1D7DB00EE9C94 /* Picker.swift in Sources */,
+				72EAD08C2CD1E61F00EE9C94 /* ContextMenu.swift in Sources */,
 				72EAD0862CD0852300EE9C94 /* SliderView.swift in Sources */,
 				72EAD0882CD0ED7A00EE9C94 /* ListView.swift in Sources */,
 				72EAD05A2CD06BF200EE9C94 /* ContentView.swift in Sources */,
