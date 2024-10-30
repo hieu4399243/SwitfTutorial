@@ -13,12 +13,11 @@ struct PickerUI: View {
     var body: some View {
         VStack {
             Picker("choose", selection: $selectedColor) {
-                            ForEach(colors, id: \.self) { color in
-                                Text(color)
-                            }
-                        }
-                    Text("You selected: \(selectedColor)")
+                ForEach(0..<colors.count, id: \.self) { index in
+                    Text(colors[index])
                 }
+            }
+        }.pickerStyle(SegmentedPickerStyle())
     }
 }
 
